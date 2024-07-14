@@ -26,7 +26,7 @@ body {
   color: black! important;
 }
 .h1_5 {
-    font-size: 6em; /* Average size between h1 and h2 */
+    font-size: 4.5em; /* Average size between h1 and h2 */
     font-weight: bold;
     margin:0;
 }
