@@ -38,12 +38,10 @@ body {
     margin: 50px auto;
     overflow: hidden;
 }
-
 .carousel-inner {
     display: flex;
     transition: transform 0.5s ease-in-out;
 }
-
 .carousel-item {
     min-width: 100%;
     box-sizing: border-box;
@@ -52,12 +50,10 @@ body {
     flex-direction: column;
     align-items: center;
 }
-
 .carousel-item img {
     width: 100%;
     height: auto;
 }
-
 .carousel-caption {
     background: rgba(255, 255, 255, 1.0);
     color: white;
@@ -66,7 +62,6 @@ body {
     width: 100%;
     box-sizing: border-box;
 }
-
 .carousel-controls {
     position: absolute;
     top: 50%;
@@ -75,7 +70,6 @@ body {
     justify-content: space-between;
     transform: translateY(-50%);
 }
-
 .carousel-control {
     background: rgba(255, 255, 255, 1.0);
     color: black;
