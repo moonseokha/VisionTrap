@@ -31,6 +31,11 @@ body {
     text-align: center;
     font-family: Arial, sans-serif; */
 }
+.h1_5 {
+    font-size: calc((2em + 1.5em) / 2); /* Average size between h1 and h2 */
+    font-weight: bold;
+    margin: 0.67em 0;
+}
 .subtitle {
     font-size: 4.5em; /* 나머지 텍스트 크기 */
     font-weight: Strong; /*
