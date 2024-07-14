@@ -14,6 +14,9 @@ body {
 /*     padding: 64px 0 24px; */
   padding: 100px 0 24px;
     border-bottom: 1px solid rgba(0,0,0,0.1);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #333;
 /*     background-color: #082333; */
 /*   background-color: #5f27cd; */
   
@@ -22,7 +25,23 @@ body {
 /*     color: #5f27cd; */
   color: black! important;
 }
-
+.main-title {
+    font-size: 20em; /* VisionTrap 글자 크기 */
+    font-weight: Strong;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+.subtitle {
+    font-size: 15em; /* 나머지 텍스트 크기 */
+    font-weight: normal;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 0.5em;
+}
+.affiliations {
+    font-size: 1.2em;
+    margin-top: 1em;
+}
 .title h1 {
     font-size: 50px;
     font-family: "Roboto", "Barlow",system-ui,Arial,sans-serif;
@@ -73,11 +92,11 @@ body {
     flex-flow: wrap;
 }
 
-.affiliations {
+/* .affiliations {
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
+} */
 
 .byline {
     padding: 25px;
