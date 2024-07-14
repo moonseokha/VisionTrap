@@ -10,6 +10,26 @@ body {
   color: black! important;
   
 }
+.slider figcaption {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 5px;
+    font-size: 10px;
+}
+.slider {
+    width: 80%;
+    margin: 50px auto;
+}
+.slider .slide-content {
+    position: relative;
+}
+.slider img {
+    width: 100%;
+    height: auto;
+}
 .title {
 /*     padding: 64px 0 24px; */
   padding: 100px 0 24px;

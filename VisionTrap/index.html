@@ -14,6 +14,8 @@ layout: home
     <meta name="author" content="....">
     <link rel="stylesheet" href="stylesheet.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css"/> -->
     <script type="text/x-mathjax-config">
 
         MathJax.Hub.Config({
@@ -144,13 +146,27 @@ layout: home
             <div class="section">
                 <h2 class="section-title">nuScenes-Text Dataset</h2>
                 <p>The nuScenes-Text dataset enriches the nuScenes dataset with detailed annotations for every object in each frame, providing three versions of descriptions from surround camera views. We removed location-specific information such as 'left', 'right' or 'away from the ego car' to prevent confusion and refined descriptions using a LLM for clarity. These annotations capture diverse semantic details, such as agent behaviors, semantic features, and environmental conditions.</p>
-                <div class="center-img">
+                <!-- <div class="center-img">
                     <figure>
                         <img class="content" width="100%" height="100%" src="./assets/QualitativeResults.png"/>
                         </figure>
                     </div>
-    
+     -->
+                <div class="slider">
+                    <div class="slide-content">
+                        <img src="./assets/dataset_architecture.png" alt="Slide 1">
+                        <figcaption>Caption for Slide 1</figcaption>
+                    </div>
+                    <div class="slide-content">
+                        <img src="./assets/dataset_architecture.png" alt="Slide 2">
+                        <figcaption>Caption for Slide 2</figcaption>
+                    </div>
+                    <div class="slide-content">
+                        <img src="./assets/dataset_architecture.png" alt="Slide 3">
+                        <figcaption>Caption for Slide 3</figcaption>
+                    </div>
                 </div>
+            </div>
 
                 <div class="section">
                     <h2 class="section-title">nuScenes-Text Dataset Architecture</h2>
