@@ -44,20 +44,21 @@ body {
     min-width: 100%;
     box-sizing: border-box;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .carousel-item img {
     width: 100%;
     height: auto;
 }
 .carousel-caption {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
     background: rgba(0, 0, 0, 0.5);
     color: black;
     padding: 10px;
     text-align: center;
+    width: 100%;
+    box-sizing: border-box;
 }
 .carousel-controls {
     position: absolute;
@@ -69,7 +70,7 @@ body {
 }
 .carousel-control {
     background: rgba(0, 0, 0, 0.5);
-    color: #fff;
+    color: black;
     border: none;
     padding: 10px;
     cursor: pointer;
