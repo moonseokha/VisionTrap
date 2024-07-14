@@ -26,14 +26,14 @@ body {
   color: black! important;
 }
 .main-title {
-    font-size: 1.8em; /* VisionTrap 글자 크기 */
-    /* font-weight: Strong;
+    font-size: 2.5em; /* VisionTrap 글자 크기 */
+    font-weight: Strong; /*
     text-align: center;
     font-family: Arial, sans-serif; */
 }
 .subtitle {
-    font-size: 1.5em; /* 나머지 텍스트 크기 */
-    /* font-weight: normal;
+    font-size: 2.0em; /* 나머지 텍스트 크기 */
+    font-weight: Strong; /*
     text-align: center;
     font-family: Arial, sans-serif;
     margin-top: 0.5em; */
