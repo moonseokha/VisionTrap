@@ -25,23 +25,10 @@ body {
 /*     color: #5f27cd; */
   color: black! important;
 }
-.main-title {
-    font-size: 5em; /* VisionTrap 글자 크기 */
-    font-weight: Strong; /*
-    text-align: center;
-    font-family: Arial, sans-serif; */
-}
 .h1_5 {
-    font-size: 4em; /* Average size between h1 and h2 */
+    font-size: 6em; /* Average size between h1 and h2 */
     font-weight: bold;
     margin:0;
-}
-.subtitle {
-    font-size: 4.5em; /* 나머지 텍스트 크기 */
-    font-weight: Strong; /*
-    text-align: center;
-    font-family: Arial, sans-serif;
-    margin-top: 0.5em; */
 }
 /* .affiliations {
     font-size: 1.1em;
@@ -75,7 +62,7 @@ body {
 }
 
 .affiliations {
-    margin-top: 15px;
+    /* margin-top: 15px; */
     /* font-size: 15px; */
 /*     color: #000000; */
   color: black! important;
