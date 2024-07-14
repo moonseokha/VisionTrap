@@ -55,7 +55,7 @@ body {
     left: 50%;
     transform: translateX(-50%);
     background: rgba(0, 0, 0, 0.5);
-    color: #fff;
+    color: black;
     padding: 10px;
     text-align: center;
 }
