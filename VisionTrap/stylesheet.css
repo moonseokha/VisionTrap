@@ -20,11 +20,11 @@ body {
     text-align: left;
 }
 
-/* .header a {
-    color: white;
+.header a {
+    color: white!important;
     text-decoration: none;
     font-size: 1.2em;
-} */
+}
 .slider figcaption {
     position: absolute;
     bottom: 10px;
