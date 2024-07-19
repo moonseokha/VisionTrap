@@ -7,7 +7,23 @@ body {
     background-color: white !important;
     color: black !important;
 }
+.header {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    text-align: left;
+}
 
+.header a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
 .slider figcaption {
     position: absolute;
     bottom: 10px;
