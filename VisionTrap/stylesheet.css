@@ -15,15 +15,16 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1200;
-    font-size: 1.2em;
+    z-index: 1400;
+    font-size: 1.1em;
     text-align: left;
 }
 
 .header a {
     color: white!important;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1.1em;
+    font-family: 'Roboto', sans-serif; /* 폰트 적용 */
 }
 .slider figcaption {
     position: absolute;
