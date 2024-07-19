@@ -11,7 +11,7 @@ body {
     width: 100%;
     background-color: black !important;
     color: white !important;
-    padding: 10px 20px;
+    padding: 100px 200px;
     position: fixed;
     top: 0;
     left: 10;
@@ -133,7 +133,7 @@ body {
 }
 
 .affiliations {
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     text-align: center;
 }
 
